@@ -3,30 +3,10 @@
 
 void main()
 {
-    int a,b;
+    int i ;
     clrscr();
-    printf("Enter 2values:");
-    scanf("%d %d",&a,&b);
-    if (a > b)
-	printf("%d > %d\n",a,b);
-    else
-    if (a < b)
-	printf("%d > %d\n",b,a);
-    else
-	printf("%d = %d\n",a,b);
+    for(i = 1; i<=10; i++)
+	printf("%d ",i*2);
 
     getch();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
